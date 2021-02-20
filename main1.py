@@ -71,9 +71,10 @@ def create():
         return render_template('create.html')
 
 
-@app.route('/map')
-def map():
-    return render_template('map.html')
+@app.route('/map1')
+def map1():
+    return render_template('map1.html')
+
 
 if __name__ == "__main__":
     app.run(debug=False)
